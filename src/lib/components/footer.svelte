@@ -33,7 +33,7 @@
         <Copyright class="mr-1" size={16} /> {new Date().getFullYear()} All rights reserved
       </p>
       <p class="mt-2 flex items-center justify-center">
-        Made with <Heart class="mx-1 text-red-500" size={16} /> using SvelteKit
+        Made with <Heart class="mx-1 text-red-500" size={16} /> by RyderTech
       </p>
     </div>
   </div>

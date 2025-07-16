@@ -3,9 +3,25 @@
 	import Navbar from '$lib/components/navbar.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import ThemeSwitcher from '$lib/components/themeSwitcher.svelte';
+	import { getStructuredData } from '$lib/seo';
+	import Seo from '$lib/components/seo.svelte';
+	
 	let { children } = $props();
+
+	const siteData = {
+        title: "Full Stack Developer Portfolio",
+        description: "Professional portfolio showcasing my projects and skills",
+        url: "https://yourportfolio.vercel.app"
+    };
+    
+    const structuredData = getStructuredData();
+
 </script>
 
+<Seo 
+    {...siteData}
+    {structuredData}
+/>
 <div class="min-h-screen flex flex-col">
 	<Navbar/>
 	<main class="flex-grow">

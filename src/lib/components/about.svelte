@@ -1,7 +1,18 @@
 <script>
   import { User, Award, School, Briefcase, Calendar } from '@lucide/svelte';
   import { fade, slide } from 'svelte/transition';
+  import Seo from './seo.svelte';
+  import { getStructuredData } from '$lib/seo';
   
+
+    const pageSeo = {
+        title: "About Me | Developer",
+        description: "Learn about my background, skills, and experience",
+        url: "https://yourportfolio.vercel.app/about"
+    };
+    
+    const structuredData = getStructuredData();
+
   const experiences = [
     {
       role: "Full Stack Developer",
@@ -43,6 +54,8 @@
   
   let activeTab = 'experience';
 </script>
+
+<Seo {...pageSeo} {structuredData} />
 
 <section class="py-20 bg-base-100" id="about">
   <div class="container mx-auto px-6">
