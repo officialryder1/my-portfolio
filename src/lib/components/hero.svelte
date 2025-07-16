@@ -6,7 +6,7 @@
 
 <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary to-secondary text-primary-content">
   <div class="container mx-auto px-6 py-20 text-center" in:fade={{ duration: 500 }}>
-    <div class="avatar mb-8" in:fly={{ y: -50, duration: 800 }}>
+    <div class="avatar mt-13 mb-8" in:fly={{ y: -50, duration: 800 }}>
       <div class="w-40 rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
         <img src="/cartoon.jpeg" alt="Developer Profile" class="animate-pulse" />
       </div>
