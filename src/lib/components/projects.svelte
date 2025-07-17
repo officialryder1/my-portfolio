@@ -5,8 +5,8 @@
   
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-featured online store with payment integration and admin dashboard",
+      title: "RyderXchange",
+      description: "A Crypto exchange platform",
       tags: ["SvelteKit", "Node.js", "Stripe", "FastAPI"],
       image: "/ryderx.png",
       links: [
