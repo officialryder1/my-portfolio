@@ -87,7 +87,7 @@
             <User class="mr-2 text-primary" size={24} /> Who Am I?
           </h3>
           <p class="text-lg mb-4">
-            Hi, I'm a passionate and detail-oriented Full-Stack Developer with a strong focus on building modern web applications using Javascript, Python, Go, and other cutting-edge technologies.
+            Hi, I'm a passionate and detail-oriented Full-Stack Developer with a degree in computer science and a strong focus on building modern web applications using Javascript, Python, Go, and other cutting-edge technologies.
           </p>
           <p class="text-lg">
             With a background in both frontend and backend development, I love transforming ideas into real, usable products — whether it’s crafting user-friendly interfaces or building powerful APIs behind the scenes. My journey into development started with curiosity and has evolved into a commitment to building scalable, accessible, and responsive digital experiences
