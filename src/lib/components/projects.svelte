@@ -20,7 +20,7 @@
       tags: ["Sveltekit", "Django Restframework", "WebSockets"],
       image: "/dashboard2.png",
       links: [
-        { url: "https://tweet-genie.vercel.app/", icon: ExternalLink, label: "Live Demo" },
+        { url: "http://couple-quest-frontend.vercel.app/", icon: ExternalLink, label: "Live Demo" },
         { url: "https://github.com/officialryder1/tweetgenie", icon: Github, label: "Source Code" }
       ]
     },
