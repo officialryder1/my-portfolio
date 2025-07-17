@@ -72,9 +72,10 @@
           <div class="absolute -inset-2 bg-gradient-to-r from-primary to-accent rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-200 animate-tilt"></div>
           <div class="relative">
             <img 
-              src="/victor.jpg" 
+              src="/cartoon.jpeg" 
               alt="About Me" 
               class="rounded-lg w-full max-w-xs shadow-2xl hover:scale-105 transition-transform"
+              loading="lazy"
             />
           </div>
         </div>
@@ -86,13 +87,13 @@
             <User class="mr-2 text-primary" size={24} /> Who Am I?
           </h3>
           <p class="text-lg mb-4">
-            I'm a passionate full-stack developer with over 5+ years of experience building web applications. 
-            I specialize in JavaScript & Python ecosystems and cloud architectures.
+            Hi, I'm a passionate and detail-oriented Full-Stack Developer with a strong focus on building modern web applications using Javascript, Python, Go, and other cutting-edge technologies.
           </p>
           <p class="text-lg">
-            When I'm not coding, you can find me Playing Video Games, watching sci-fi, 
-            or experimenting with new Technologies had from the web. I believe in continuous learning 
-            and sharing knowledge with the community.
+            With a background in both frontend and backend development, I love transforming ideas into real, usable products — whether it’s crafting user-friendly interfaces or building powerful APIs behind the scenes. My journey into development started with curiosity and has evolved into a commitment to building scalable, accessible, and responsive digital experiences
+          </p>
+          <p class="text-lg mb-4">
+            I'm continuously learning, experimenting, and improving. Whether working independently or in a team, I thrive in solving real-world problems through clean code and thoughtful design.
           </p>
         </div>
         

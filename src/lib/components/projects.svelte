@@ -8,10 +8,10 @@
       title: "E-Commerce Platform",
       description: "Full-featured online store with payment integration and admin dashboard",
       tags: ["SvelteKit", "Node.js", "Stripe", "FastAPI"],
-      image: "/projects/ecommerce.jpg",
+      image: "/ryderx.png",
       links: [
-        { url: "https://discovang-bbsl.vercel.app/", icon: ExternalLink, label: "Live Demo" },
-        { url: "https://github.com/officialryder1/e-commerce-frontend", icon: Github, label: "Source Code" }
+        { url: "https://ryderx.vercel.app", icon: ExternalLink, label: "Live Demo" },
+        { url: "https://github.com/officialryder1/RyderXchange", icon: Github, label: "Source Code" }
       ]
     },
     {
@@ -75,7 +75,7 @@
           animate:flip={{ duration: 500, easing: quintOut }}
           class="card bg-base-200 shadow-xl image-full hover:scale-[1.02] transition-transform"
         >
-          <figure><img src={project.image} alt={project.title} /></figure>
+          <figure><img src={project.image} alt={project.title} loading="lazy"/></figure>
           <div class="card-body">
             <h3 class="card-title text-2xl">{project.title}</h3>
             <p>{project.description}</p>
@@ -98,9 +98,9 @@
     </div>
     
     <div class="text-center mt-12">
-      <button class="btn btn-primary btn-wide">
+      <a href='/project' class="btn btn-primary btn-wide">
         View All Projects <Eye class="ml-2" />
-      </button>
+      </a>
     </div>
   </div>
 </section>
