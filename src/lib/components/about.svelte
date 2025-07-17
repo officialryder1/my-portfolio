@@ -92,7 +92,7 @@
           <p class="text-lg">
             With a background in both frontend and backend development, I love transforming ideas into real, usable products — whether it’s crafting user-friendly interfaces or building powerful APIs behind the scenes. My journey into development started with curiosity and has evolved into a commitment to building scalable, accessible, and responsive digital experiences
           </p>
-          <p class="text-lg mb-4">
+          <p class="text-lg mt-4">
             I'm continuously learning, experimenting, and improving. Whether working independently or in a team, I thrive in solving real-world problems through clean code and thoughtful design.
           </p>
         </div>
