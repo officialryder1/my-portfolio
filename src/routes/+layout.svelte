@@ -1,5 +1,6 @@
 <script>
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
+	import { dev } from '$app/environment';
 	import '../app.css';
 	import Navbar from '$lib/components/navbar.svelte';
 	import Footer from '$lib/components/footer.svelte';
@@ -16,6 +17,7 @@
     };
     
     const structuredData = getStructuredData();
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 </script>
 
