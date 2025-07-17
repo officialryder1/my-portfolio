@@ -49,7 +49,7 @@
             </div>
             <div class="flex flex-wrap gap-2">
               {#each skill.items as item}
-                <span class="badge badge-error badge-outline hover:badge-primary transition-colors">
+                <span class="badge badge-primary badge-outline hover:badge-info transition-colors">
                   {item}
                 </span>
               {/each}
